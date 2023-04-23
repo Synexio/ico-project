@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract MyToken {
     mapping(address => uint256) balances;
     mapping(address => mapping (address => uint256)) allowed;
-    mapping (address => bool) isBlocked;
+    mapping(address => bool) isBlocked;
 
     uint256 _totalSupply;
     string _name;
@@ -15,7 +15,7 @@ contract MyToken {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
     event Transfer(address indexed from, address indexed to, uint tokens);
 
-    function _mint(address account, uint256 amount) internal virtual {
+    function mint(address account, uint256 amount) public virtual {
         require(account != address(0), "ERC20: mint to the zero address");
         require(isBlocked[account] != true, "Account is blocked");
         require(msg.sender == _administrator, "Not admin");

@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a973a4-4d08-4f04-83d1-c7e317b9e4ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/contracts/IERC20.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/contracts/Uniswap.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/test/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/hardhat.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/contracts/Lock.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/contracts/MyToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/contracts/MyToken.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/scripts/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/scripts/deploy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/test/Lock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontico/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontico/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Solidity Contract Interface" />
         <option value="Solidity Contract" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +68,7 @@
       <updated>1679926814410</updated>
       <workItem from="1679926815960" duration="2433000" />
       <workItem from="1682266948142" duration="337000" />
-      <workItem from="1682269302676" duration="2462000" />
+      <workItem from="1682269302676" duration="9005000" />
     </task>
     <servers />
   </component>
