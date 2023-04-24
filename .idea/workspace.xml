@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9a973a4-4d08-4f04-83d1-c7e317b9e4ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/contracts/Uniswap.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/contracts/interfaces/IERC20.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/contracts/proxy/AddressUpgradeable.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/contracts/proxy/Initializable.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/test/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/ethersRPC.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/src/web3RPC.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontico/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/contracts/Lock.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/contracts/MyToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/contracts/MyToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/hardhat.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/scripts/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/scripts/deploy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/test/Lock.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +67,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/TP1/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\alexh\OneDrive\Bureau\ESGI\4eme annee\ICO\frontico\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexh\OneDrive\Bureau\ESGI\4eme annee\ICO\TP1\contracts\interfaces" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,11 +87,22 @@
       <option name="presentableId" value="Default" />
       <updated>1679926814410</updated>
       <workItem from="1679926815960" duration="2433000" />
-      <workItem from="1682266948142" duration="1285000" />
+      <workItem from="1682266948142" duration="5484000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

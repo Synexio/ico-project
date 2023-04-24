@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./proxy/Initializable.sol";
-
-contract MyToken {
+contract MyTokenOld {
     mapping(address => uint256) balances;
     mapping(address => mapping (address => uint256)) allowed;
     mapping(address => bool) isBlocked;
@@ -76,9 +74,9 @@ contract MyToken {
 
 }
 
-contract MyTokenAdvanced is MyToken, Initializable {
+contract MyTokenAdvancedOld is MyTokenOld {
 
-    function initialize(uint256 initialSupply, address admin, uint priceInWei) public initializer {
+    constructor(uint256 initialSupply, address admin, uint priceInWei) {
         _name = "MyToken";
         _symbol = "MT";
         _totalSupply = initialSupply;
